@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Member Area
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="logout()">
+        <ion-icon name="log-out"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-icon name="alert" item-start large></ion-icon>
+    <!-- <h2>{{users.email}}</h2> -->
+    <h2>{{user.firstname}}</h2>
+    <h2>{{user.secondname}}</h2>
+  </ion-item>
+</ion-content>
